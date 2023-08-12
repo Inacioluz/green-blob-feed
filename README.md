@@ -22,19 +22,19 @@ Certifique-se de ter o Node.js e o npm instalados em sua máquina.
 
 ## 2. Navegue para o diretório do projeto:
 
-      ```sh
-cd fundamentos-reactjs
+   ```sh
+   cd fundamentos-reactjs
 
 ## 3. Instale as dependências usando o npm:
 
-        ```sh
-npm install
+   ```sh
+   npm install
 
 
 Para iniciar o servidor de desenvolvimento e visualizar o aplicativo:
 
-     ```sh
-npm run dev
+   ```sh
+   npm run dev
 
  ## O aplicativo estará disponível em http://localhost:5173/+
 
