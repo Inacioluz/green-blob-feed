@@ -20,17 +20,20 @@ Certifique-se de ter o Node.js e o npm instalados em sua máquina.
    git clone https://github.com/Inacioluz/green-blob-feed.git
 
 
-## 2. Navegue para o diretório do projeto:
+## 2. **Navegue** para o diretório do projeto:
 
-   cd fundamentos-reactjs
+    ```sh  cd fundamentos-reactjs
+  
 
 ## 3. Instale as dependências usando o npm:
 
-   npm install
+    ```sh  npm install
 
+   
 Para iniciar o servidor de desenvolvimento e visualizar o aplicativo:
 
-   npm run dev
+    ```sh npm run dev
+  
 
  ## O aplicativo estará disponível em http://localhost:5173/+
 
