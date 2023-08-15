@@ -14,10 +14,11 @@ export function Post({ author, publishedAt, content }){
 
     const [ newCommentText, setNewCommentText ] = useState('')
 
+    console.log(newCommentText)
+
     const publishedDateFormatted =  format(publishedAt, "d 'de' LLLL 'ás' HH:mm'h'", {
         locale: ptBR
     })
-
 
     const publishedDateRelativeToNow = formatDistanceToNow(publishedAt, {
         locale: ptBR,
@@ -36,6 +37,11 @@ export function Post({ author, publishedAt, content }){
         setNewCommentText(event.target.value);
     }
 
+    function newCommentInvalid() {
+        event.target.setCustomValidity('');
+        setNewCommentText(event.target.value);
+    }
+
     function deleteComment(commentsToDelete) {
         
         const commentsWithoutDeletedOne = comments.filter(comments => {
@@ -45,6 +51,7 @@ export function Post({ author, publishedAt, content }){
         setComments(commentsWithoutDeletedOne);
 
     }
+    const isNewCommentEmpty = newCommentText.length === 0;
 
     return (
        
@@ -80,9 +87,13 @@ export function Post({ author, publishedAt, content }){
                 placeholder="Deixe um comentário"
                 value={newCommentText}
                 onChange={handleNewCommentChange}
+                onInvalid={newCommentInvalid}
+                required
                 />
                 <footer>
-                    <button type="submit">Publicar</button>
+                    <button type="submit" disabled={isNewCommentEmpty}>
+                        Publicar
+                        </button>
                 </footer>
             </form>
             

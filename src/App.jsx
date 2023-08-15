@@ -29,7 +29,7 @@ const posts = [
     id: 2,
     author: {
       avatarUrl:
-        "https://scontent.fvcp10-1.fna.fbcdn.net/v/t39.30808-6/342349042_133641826249988_977261041220547429_n.jpg?_nc_cat=110&cb=99be929b-59f725be&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=LY-ZskK-BQYAX_fVmUs&_nc_ht=scontent.fvcp10-1.fna&oh=00_AfDKKAvCw929Opx7O3EFsOUckFr2lWWvpxO40GWUda9SfQ&oe=64D96138",
+        "https://scontent.fvcp10-1.fna.fbcdn.net/v/t39.30808-6/342349042_133641826249988_977261041220547429_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=_INNAgdR0a0AX-9Y-tF&_nc_ht=scontent.fvcp10-1.fna&oh=00_AfBDm2XQ7rZjGvvLLO061PVDTXMraxQhfksUOc3NIENLMA&oe=64E14A38",
       name: "Thiago Santos",
       role: "Engineer Software",
     },
