@@ -1,5 +1,5 @@
 
-# Projeto React com Vite
+# Projeto React + Vite
 ![image](https://github.com/Inacioluz/green-blob-feed/assets/108021488/239cf914-8bb0-46b7-953a-ff2962257a1e)
 
 
