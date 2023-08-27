@@ -22,9 +22,10 @@ Certifique-se de ter o Node.js e o npm instalados em sua máquina.
 
 ## 2. **Navegue** para o diretório do projeto:
 
-    ``` 
-    cd fundamentos-reactjs
-    ```
+    
+```
+cd fundamentos-react
+```
   
 
 ## 3. Instale as dependências usando o npm:
