@@ -29,7 +29,7 @@ Certifique-se de ter o Node.js e o npm instalados em sua máquina.
 
 ## 3. Instale as dependências usando o npm:
 
-   ```  
+   ```
    npm install
    ```
 
