@@ -1,5 +1,5 @@
 
-# Projeto React com Vite
+# Projeto React + Vite
 ![image](https://github.com/Inacioluz/green-blob-feed/assets/108021488/239cf914-8bb0-46b7-953a-ff2962257a1e)
 
 
@@ -22,17 +22,24 @@ Certifique-se de ter o Node.js e o npm instalados em sua máquina.
 
 ## 2. **Navegue** para o diretório do projeto:
 
-    ```sh  cd fundamentos-reactjs
+    
+```
+cd fundamentos-react
+```
   
 
 ## 3. Instale as dependências usando o npm:
 
-    ```sh  npm install
+   ```
+   npm install
+   ```
 
    
 Para iniciar o servidor de desenvolvimento e visualizar o aplicativo:
 
-    ```sh npm run dev
+   ```
+   npm run dev
+   ```
   
 
  ## O aplicativo estará disponível em http://localhost:5173/+
