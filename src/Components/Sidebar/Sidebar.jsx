@@ -9,7 +9,7 @@ export function Sidebar() {
         />
     
       <div className={styles.perfil}>
-      <Avatar src="https://scontent.fvcp10-1.fna.fbcdn.net/v/t1.6435-9/118089129_106510437838937_6896209810994877188_n.jpg?_nc_cat=104&cb=99be929b-59f725be&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=4h6M0HvEnz0AX_R3b8o&_nc_ht=scontent.fvcp10-1.fna&oh=00_AfDAdo_wBzZo8NFOpOACr_Sb0lJSHac4nfvTkJXqswqMBw&oe=64F79446" />
+      <Avatar src="https://scontent.fvcp10-1.fna.fbcdn.net/v/t1.6435-9/118580989_116494490173865_5625343286437638877_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=e3f864&_nc_ohc=eroT--q2W80AX-z5ClC&_nc_ht=scontent.fvcp10-1.fna&oh=00_AfCd21HBlZFAvDwKHy1jDLSBiBoma_kd6_xdrL_nh53zZA&oe=6521D104" />
       
 
         <strong>Inacio Silva</strong>
